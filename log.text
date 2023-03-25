@@ -1,0 +1,54 @@
+13/03/2023
+
+PS C:\Users\DELL\Desktop\PolygonProject> cd scripts
+PS C:\Users\DELL\Desktop\PolygonProject\scripts> npx hardhat run deploy.js --network mumbai
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Lock with 0.001ETH and unlock timestamp 1678709716 deployed to 0x6ad68b0Af3FE72EAb140635d92BC12593C24EA29
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+
+//14/3/2023////
+PS C:\Users\DELL\Desktop\PolygonProject\scripts> npx hardhat run deploy.js --network mumbai
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+
+  * Invalid value undefined for HardhatConfig.networks.mumbai.url - Expected a value of type string.
+  * Invalid account: #0 for network: mumbai - Expected string, received undefined
+
+
+For more info go to https://hardhat.org/HH8 or run Hardhat with --show-stack-traces
+PS C:\Users\DELL\Desktop\PolygonProject\scripts> npx hardhat run deploy.js --network mumbai
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Lock with 0.001ETH and unlock timestamp 1678776360 deployed to 0x173A2C3aCfE50396E760dafCF44068F9a44a777B
+PS C:\Users\DELL\Desktop\PolygonProject\scripts> npx hardhat run scripts/verify.js --network mumbai
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Error HH601: Script scripts/verify.js doesn't exist.
+For more info go to https://hardhat.org/HH601 or run Hardhat with --show-stack-traces
+PS C:\Users\DELL\Desktop\PolygonProject\scripts> npx hardhat run verify.js --network mumbai        
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Error HH601: Script verify.js doesn't exist.
+For more info go to https://hardhat.org/HH601 or run Hardhat with --show-stack-traces
+PS C:\Users\DELL\Desktop\PolygonProject\scripts> npx hardhat run 0x173A2C3aCfE50396E760dafCF44068F9a44a777B  --network mumbai
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Error HH601: Script 0x173A2C3aCfE50396E760dafCF44068F9a44a777B doesn't exist.
+
+For more info go to https://hardhat.org/HH601 or run Hardhat with --show-stack-traces
+PS C:\Users\DELL\Desktop\PolygonProject\scripts> npx hardhat run 0x173A2C3aCfE50396E760dafCF44068F9a44a777B  --network mumbai
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Error HH601: Script 0x173A2C3aCfE50396E760dafCF44068F9a44a777B doesn't exist.
+
+For more info go to https://hardhat.org/HH601 or run Hardhat with --show-stack-traces
+PS C:\Users\DELL\Desktop\PolygonProject\scripts> npx hardhat verify  0x173A2C3aCfE50396E760dafCF44068F9a44a777B  --network mumbai
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+Nothing to compile
+Successfully submitted source code for contract
+contracts/Lock.sol:NFTMarket at 0x173A2C3aCfE50396E760dafCF44068F9a44a777B
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract NFTMarket on Etherscan.
+https://mumbai.polygonscan.com/address/0x173A2C3aCfE50396E760dafCF44068F9a44a777B#code
+PS C:\Users\DELL\Desktop\PolygonProject\scripts>
+
+
+
+
+
